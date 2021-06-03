@@ -1,0 +1,27 @@
+.photo {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+
+  &__left {
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    height: 70px;
+    flex: 0 0 70px;
+    & img {
+      max-width: 100%;
+    }
+  }
+  &__right {
+    margin: 0 0 0 10px;
+
+    & h3 {
+      margin: 0 0 5px 0;
+    }
+
+    & a {
+      color: #76726c;
+    }
+  }
+}
